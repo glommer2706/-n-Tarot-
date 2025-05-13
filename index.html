@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Các mạng xã hội của Đèn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://scontent.fdad3-5.fna.fbcdn.net/v/t39.30808-6/492000987_122223681536238917_6112758974173698037_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Za4g32cGcz8Q7kNvwFRLpEj&_nc_oc=AdkpHPRbU7bO-G6_kFLmdawzTTKaKlYa9e0ou3L_YajzUJfB4pEMIVYAWyfXAeytnIA&_nc_zt=23&_nc_ht=scontent.fdad3-5.fna&_nc_gid=dekZcKWQVvZF00isgPpypA&oh=00_AfKZ1RHHbu2iSKfgARfeccPF1Nj4mknA-nMjGDeFiXBaCA&oe=682956DF') no-repeat center center fixed;
+            background-size: cover;
+            color: cyan;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+        }
+
+        /* Overlay tối để chữ dễ đọc */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            background: url('') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        a:hover {
+            transform: scale(1.05);
+        }
+
+        /* Responsive avatar */
+        @media (max-width: 600px) {
+            .avatar {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/481941597_1848835379201367_1357735314334556181_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF_RiBwDdoNKQ6ypFwBFXSPWyHUAR4gOJ9bIdQBHiA4n4Ev57SPjvNrMUP4La8Q4oLzJmJqcYkkNCBPw4VzKgaN&_nc_ohc=_mQhwTeiGtcQ7kNvwH0yh__&_nc_oc=Adne30JFUHY0TIGe95md8-zCqolQvMqNwbdwj2vRNIjdw5R-Ljspy_LbZay_BZ-I5Co&_nc_zt=23&_nc_ht=scontent.fdad3-1.fna&_nc_gid=povYH1XDElXlf3799OAVHw&oh=00_AfKCx-y3TNllRe2qhHDu_1yMBImubJDVQWyPuyKy-o3D7Q&oe=6829447F" alt="avatar" class="avatar">
+    <h1>Hi bạn! Đây là các trang mạng xã hội của Đèn</h1>
+    <p>Kết nối với Đèn qua các mạng xã hội ngay nào:</p>
+
+    <a href="https://www.facebook.com/lamp.2706/" target="_blank" rel="noopener noreferrer" aria-label="Facebook của Đèn">Facebook</a>
+    <a href="https://www.instagram.com/lamp_2706/" target="_blank" rel="noopener noreferrer" aria-label="Instagram của Đèn">Instagram</a>
+    <a href="https://www.threads.com/@lamp_2706" target="_blank" rel="noopener noreferrer" aria-label="Threads của Đèn">Threads</a>
+    <a href="https://zalo.me/0943837968" target="_blank" rel="noopener noreferrer" aria-label="Zalo của Đèn">Zalo</a>
+    <a href="https://www.tiktok.com/@lamp_2706" target="_blank" rel="noopener noreferrer" aria-label="TikTok của Đèn">TikTok</a>
+    <a href="tel:0943837968" aria-label="Gọi điện cho Đèn">0943 837 968</a>
+    <a href="mailto:glommerstar@gmail.com" aria-label="Gửi email cho Đèn">Gửi Email</a>
+</body>
+</html>
